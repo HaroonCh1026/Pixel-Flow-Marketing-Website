@@ -45,7 +45,7 @@ function Address() {
       <div className="bg-primary rounded-3xl flex-col space-y-10 p-10 text-white">
         <h1 className="text-3xl font-semibold text-white sm:text-5xl sm:font-bold sm:text-center">Get In Touch</h1>
         <p  className="sm:text-center sm:text-lg sm:font-semibold">
-          ThinkSphere is Digital marketing agency , that provides you with the
+          PixelFlow is Digital marketing agency , that provides you with the
           best services.
         </p>
 
