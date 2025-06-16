@@ -1,0 +1,24 @@
+import React from "react";
+import introAbout from "../../Pages/About/intro-about.svg";
+
+function IntroAbout() {
+  return (
+    <>
+      <div className="about-intro h-full sm:hidden "></div>
+      <div className="grid grid-cols-2 sm:grid-cols-1 h-screen items-center min-h-screen sm:bg-secondary sm:p-10 ">
+        <div className="z-10 flex justify-center mx-1">
+          <img src={introAbout} className="h-[500px] w-[500px] sm:h-[200px] sm:w-[200px] sm:self-center sm:mt-0" />
+        </div>
+        <div className="z-10 max-w-max flex flex-col space-y-5 sm:p-10 sm:-mt-3">
+          <h1 className="text-8xl font-semibold text-white sm:text-4xl  sm:font-semibold:  ">PixelFlow</h1>
+          <hr />
+          <h1 className="text-xl font-semibold text-gray-300  sm:text-base sm:font-normal">OLDER | STRONGER | WISER</h1>
+        </div>
+      </div>
+    </>
+  );
+}
+
+export default IntroAbout;
+
+
