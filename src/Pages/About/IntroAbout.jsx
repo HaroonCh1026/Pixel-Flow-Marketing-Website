@@ -1,5 +1,5 @@
 import React from "react";
-import introAbout from "../../Pages/About/intro-about.svg";
+import introAbout from "../../assets/introAbout.png";
 
 function IntroAbout() {
   return (
