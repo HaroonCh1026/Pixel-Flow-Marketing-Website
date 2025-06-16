@@ -46,16 +46,27 @@ The build artifacts will be stored in the dist/ directory.
 
 src/
 ├── assets/            # Static assets (images, icons, etc.)
+
 ├── Components/        # Reusable components
+
 ├── Pages/             # Page components
+
 │   ├── About/         # About page components
+
 │   ├── Clients/       # Clients page
+
 │   ├── Contact/       # Contact page
+
 │   └── Home/          # Home page components
+
 ├── App.css            # Main styles
+
 ├── App.jsx            # Root component
+
 ├── index.css          # Global styles
+
 └── main.jsx           # Entry point
+
 
 # Deployment
 The project is configured for easy deployment to Vercel, Netlify, or any static hosting service.
