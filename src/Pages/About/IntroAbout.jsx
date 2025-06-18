@@ -1,3 +1,4 @@
+import React from "react";
 import introAbout from "../../assets/intro-about.svg";
 
 function IntroAbout() {
