@@ -5,9 +5,11 @@ import About from "./Pages/About/About";
 import Clients from "./Pages/Clients/Clients";
 import Contacts from "./Pages/Contacts/Contacts";
 
+
 function App() {
   return (
     <Router>
+  
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
