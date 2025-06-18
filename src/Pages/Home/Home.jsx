@@ -4,7 +4,7 @@ import WhyMarketing from "./WhyMarketing";
 
 function Home({ services }) {
   return (
-    <div className="px-32 sm:px-2">
+    <div className="px-32 sm:px-5">
       <Intro />
       <MarketingStratergy />
       <WhyMarketing />

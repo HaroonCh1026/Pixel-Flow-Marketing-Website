@@ -76,12 +76,12 @@ function ClientsList() {
 
   return (
     <div className="relative">
-      <div className="bg-[#D3C5E5] h-52 rounded-b-full"></div>
+      <div className="bg-[#D3C5E5] h-52 rounded-b-full sm:bg-white"></div>
       <div className="flex justify-center -mt-64 items-end space-x-10">
-        <div className="grid grid-cols-3 sm:grid-cols-1 sm:-mt-10 sm:rounded-full gap-10 transition-all duration-500">
+        <div className="grid grid-cols-3 sm:grid-cols-1 sm:mt-2 sm:rounded-full gap-10 transition-all duration-500">
           {getVisibleItems().map((item) => (
             <div
-              className="p-5 bg-white shadow w-[360px] sm:w-[300px] h-[360px] sm:h-[300px] border rounded relative transition-all duration-500"
+           className="p-6 bg-white shadow-lg hover:shadow-xl w-full max-w-[360px] sm:max-w-[300px] h-[400px] sm:h-[350px] border border-gray-500 rounded-xl relative transition-all duration-300 ease-in-out transform hover:-translate-y-1"
               key={item.id}
             >
               <div className="flex space-x-10 items-center justify-between z-10 ">

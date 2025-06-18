@@ -3,7 +3,7 @@ const NumberClients = () => {
   const stats = [
     {
       value: "52+",
-      label: "Happy Clients",
+      label: "Clients",
     },
     {
       value: "50+",
@@ -23,9 +23,9 @@ const NumberClients = () => {
         </h1>
       </div>
 
-      <div className="grid grid-cols-3 gap-10 items-center bg-gradient-to-r from-primary to-secondary p-10 rounded shadow-lg animate-bounce transition-all duration-500">
+      <div className="grid grid-cols-3 gap-10 items-center bg-gradient-to-r from-primary to-secondary p-10 rounded shadow-lg animate-pulse transition-all duration-500">
         {stats.map(({ value, label }) => (
-          <div key={label} className="flex flex-col space-y-5 items-center">
+          <div key={label} className="flex flex-col space-y-5 items-center ">
             <h1 className="text-8xl font-bold text-white sm:text-6xl sm:font-semibold">
               {value}
             </h1>

@@ -34,7 +34,7 @@ const MarketingStratergy = () => {
 
   return (
     <div className="space-y-10">
-      <h1 className="text-5xl font-semibold text-primary sm:text-3xl sm:mt-20 sm:text-center sm:mb-10">
+      <h1 className="text-5xl font-semibold text-primary sm:text-3xl sm:mt-0 sm:text-center sm:mb-10">
         Want to Boost your Bussiness Growth?
       </h1>
       <h1 className="text-7xl font-semibold text-primary mt-10 sm:text-5xl sm:text-center sm:mb-10 sm:mt-10">

@@ -17,9 +17,9 @@ body {
   overflow-x: hidden !important;
   transform: rotate(13deg);
   position: absolute;
-  top:-55%;
-  right: 0;
-  left:-100%;
+  top:-81%;
+  right: -145px;
+  left:-19%;
   border-radius: 16px;
   
 }
